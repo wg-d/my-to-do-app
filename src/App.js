@@ -28,7 +28,7 @@ class App extends Component {
 
     return (
       <div className="container">
-        <h1>Hello, React!</h1>
+        <h1>My First To-do App!</h1>
         <Table characterData={characters} removeCharacter={this.removeCharacter}/>
         <Form handleSubmit={this.handleSubmit} />
       </div>
